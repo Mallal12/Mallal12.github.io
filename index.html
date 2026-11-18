@@ -4,33 +4,140 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lecker Rezepte – Einfache Rezepte zum Nachbacken & Nachkochen</title>
-<meta name="description" content="Lecker Rezepte: einfache, gelingsichere Rezepte für jeden Tag. Plätzchen, Kuchen und mehr – Schritt für Schritt erklärt.">
+<meta name="description" content="Lecker Rezepte: einfache, gelingsichere Rezepte für jeden Tag. Plätzchen, Kuchen und mehr – Schritt für Schritt erklärt und von Anna getestet.">
 <link rel="stylesheet" href="style.css">
+<link rel="icon" href="img/logo.png">
 </head>
 <body>
-<header>
-  <a class="brand" href="index.html">Lecker Rezepte</a>
-  <nav><a href="plaetzchen.html">Plätzchen</a></nav>
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="index.html"><img src="img/logo.png" alt="Lecker Rezepte Logo"><span><span class="name">Lecker Rezepte</span><span class="tag">Einfach. Gelingsicher. Lecker.</span></span></a>
+    <nav class="main">
+      <a href="index.html">Start</a>
+      <a href="plaetzchen.html">Plätzchen</a>
+      <a href="ueber-mich.html">Über mich</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </div>
 </header>
+
 <section class="hero">
+  <p class="kicker">Der Rezeptblog für jeden Tag</p>
   <h1>Einfache Rezepte, die immer gelingen</h1>
-  <p>Schritt-für-Schritt-Rezepte mit wenigen Zutaten – von klassischen Plätzchen bis zu neuen Lieblingsgerichten.</p>
+  <p>Schritt-für-Schritt-Rezepte mit wenigen Zutaten – von klassischen Plätzchen wie von Oma bis zu neuen Lieblingsgerichten für deine Familie.</p>
+  <a class="btn btn-red" href="plaetzchen.html">Rezepte entdecken</a>
+  <a class="btn btn-ghost" href="ueber-mich.html">Über Anna</a>
 </section>
+
 <div class="wrap">
-  <h2 class="section">Kategorien</h2>
-  <div class="grid">
-    <a class="card" href="plaetzchen.html">
-      <img src="https://images.unsplash.com/photo-1590080874088-eec64895b423?w=800" alt="Plätzchen">
-      <div class="body"><h3>Plätzchen</h3><p>Die besten Plätzchen Rezepte für Weihnachten und das ganze Jahr – Klassiker und neue Ideen.</p></div>
-    </a>
-  </div>
-  <h2 class="section">Neueste Rezepte</h2>
-  <div class="grid">
-    <a class="card" href="vanillekipferl.html"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800" alt="Vanillekipferl"><div class="body"><h3>Vanillekipferl wie von Oma</h3><p>Das klassische Rezept: zart, mürbe und unwiderstehlich vanillig.</p></div></a>
-    <a class="card" href="zimtsterne.html"><img src="https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=800" alt="Zimtsterne"><div class="body"><h3>Zimtsterne einfach selber machen</h3><p>Der Weihnachtsklassiker mit saftigem Kern und weißer Glasur.</p></div></a>
-    <a class="card" href="butterplaetzchen.html"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800" alt="Butterplätzchen"><div class="body"><h3>Butterplätzchen zum Ausstechen</h3><p>Das Grundrezept für die ganze Familie – perfekt zum Verzieren.</p></div></a>
-  </div>
+  <section class="block">
+    <div class="persona">
+      <img src="img/anna.jpg" alt="Anna – Autorin von Lecker Rezepte">
+      <div class="txt">
+        <h2>Hey, ich bin Anna!</h2>
+        <p>Willkommen in meiner Küche! Hier teile ich die Rezepte, die in unserer Familie seit Generationen gebacken werden – einfach erklärt, ehrlich getestet und mit ganz viel Liebe. Mein Motto: Gutes Backen braucht keine komplizierten Zutaten, nur ein bisschen Zeit und Freude.</p>
+        <a class="btn btn-brown" href="ueber-mich.html">Mehr über mich</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2 class="section">Kategorien</h2>
+    <div class="rule"></div>
+    <div class="grid">
+      <a class="card" href="plaetzchen.html">
+        <span class="thumb"><img src="https://images.unsplash.com/photo-1590080874088-eec64895b423?w=800" alt="Plätzchen"><span class="chip">Beliebt</span></span>
+        <div class="body"><h3>Plätzchen</h3><p>Die besten Plätzchen Rezepte für Weihnachten und das ganze Jahr – Klassiker und neue Ideen.</p>
+        <div class="meta-row"><span>🍪 5 Rezepte</span><span>⭐ Klassiker &amp; neue Ideen</span></div></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2 class="section">Neueste Rezepte</h2>
+    <p class="section-sub">Frisch aus Annas Küche – alle Rezepte Schritt für Schritt erklärt.</p>
+    <div class="grid">
+      <a class="card" href="vanillekipferl.html">
+        <span class="thumb"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800" alt="Vanillekipferl"><span class="chip">Klassiker</span></span>
+        <div class="body"><h3>Vanillekipferl wie von Oma</h3><p>Das klassische Rezept: zart, mürbe und unwiderstehlich vanillig.</p>
+        <div class="meta-row"><span>⏱ 37 Min. + Kühlzeit</span><span>🍪 ca. 40 Stück</span><span>👩‍🍳 Einfach</span></div></div>
+      </a>
+      <a class="card" href="zimtsterne.html">
+        <span class="thumb"><img src="https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=800" alt="Zimtsterne"><span class="chip">Klassiker</span></span>
+        <div class="body"><h3>Zimtsterne einfach selber machen</h3><p>Der Weihnachtsklassiker mit saftigem Kern und weißer Glasur.</p>
+        <div class="meta-row"><span>⏱ 44 Min. + Kühlzeit</span><span>🍪 ca. 30 Stück</span><span>👩‍🍳 Mittel</span></div></div>
+      </a>
+      <a class="card" href="butterplaetzchen.html">
+        <span class="thumb"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800" alt="Butterplätzchen"><span class="chip">Grundrezept</span></span>
+        <div class="body"><h3>Butterplätzchen zum Ausstechen</h3><p>Das Grundrezept für die ganze Familie – perfekt zum Verzieren.</p>
+        <div class="meta-row"><span>⏱ 30 Min. + Kühlzeit</span><span>🍪 ca. 50 Stück</span><span>👩‍🍳 Einfach</span></div></div>
+      </a>
+      <a class="card" href="beste-plaetzchen.html">
+        <span class="thumb"><img src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=800" alt="Die besten Plätzchen"><span class="chip">Top 10</span></span>
+        <div class="body"><h3>Die 10 besten Plätzchen Rezepte 2026</h3><p>Unsere beliebtesten Weihnachtsplätzchen in einer Sammlung.</p>
+        <div class="meta-row"><span>🎄 Weihnachten</span><span>🍪 10 Rezepte</span></div></div>
+      </a>
+      <a class="card" href="plaetzchen-ohne-ei.html">
+        <span class="thumb"><img src="https://images.unsplash.com/photo-1590080874088-eec64895b423?w=800" alt="Plätzchen ohne Ei"><span class="chip">Ohne Ei</span></span>
+        <div class="body"><h3>Plätzchen ohne Ei – 5 Rezepte</h3><p>Kein Ei im Haus? Diese 5 Rezepte gelingen trotzdem perfekt.</p>
+        <div class="meta-row"><span>⏱ unter 30 Min.</span><span>🍪 5 Rezepte</span><span>👩‍🍳 Einfach</span></div></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2 class="section">Warum Lecker Rezepte?</h2>
+    <div class="rule"></div>
+    <div class="trust">
+      <div class="t"><span class="ic">✅</span><h3>Gelingsicher getestet</h3><p>Jedes Rezept wird in Annas Küche gebacken und geprüft, bevor es hier landet.</p></div>
+      <div class="t"><span class="ic">📋</span><h3>Schritt für Schritt</h3><p>Klare Anleitungen ohne Fachchinesisch – auch für Backanfänger geeignet.</p></div>
+      <div class="t"><span class="ic">❤️</span><h3>Familienrezepte</h3><p>Überlieferte Klassiker wie von Oma, mit ehrlichen Tipps aus Erfahrung.</p></div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="newsletter">
+      <h2>Kein Rezept mehr verpassen!</h2>
+      <p>Melde dich für unseren Newsletter an und erhalte die neuesten Rezepte, Backtipps und saisonale Ideen direkt in dein Postfach.</p>
+      <form action="mailto:abdelhadimallal2022@gmail.com" method="post" enctype="text/plain">
+        <input type="email" name="newsletter-email" placeholder="Deine E-Mail-Adresse" required>
+        <button type="submit">Jetzt anmelden</button>
+      </form>
+      <p class="fine">Kostenlos und jederzeit abbestellbar. Deine Daten bleiben bei uns.</p>
+    </div>
+  </section>
 </div>
-<footer>© 2026 Lecker Rezepte – Alle Rezepte mit Liebe gebacken.</footer>
+
+<footer class="site">
+  <div class="cols">
+    <div>
+      <h4>Lecker Rezepte</h4>
+      <p>Einfache, gelingsichere Rezepte für jeden Tag – mit Liebe gebacken und Schritt für Schritt erklärt.</p>
+    </div>
+    <div>
+      <h4>Kategorien</h4>
+      <ul>
+        <li><a href="plaetzchen.html">Plätzchen</a></li>
+        <li><a href="beste-plaetzchen.html">Die 10 besten Plätzchen</a></li>
+        <li><a href="plaetzchen-ohne-ei.html">Plätzchen ohne Ei</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Über den Blog</h4>
+      <ul>
+        <li><a href="ueber-mich.html">Über mich</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Rechtliches</h4>
+      <ul>
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="bottom">© 2026 Lecker Rezepte – Alle Rezepte mit Liebe gebacken.</div>
+</footer>
 </body>
 </html>
