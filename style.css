@@ -167,3 +167,9 @@ footer.site .bottom{border-top:1px solid rgba(255,255,255,.14);text-align:center
 .book-facts{font-family:Verdana,sans-serif;font-size:13px;color:var(--muted);line-height:1.55}
 .book-body .buy-btn{margin-top:auto;text-align:center}
 .book-note{font-family:Verdana,sans-serif;font-size:13px;color:var(--muted);margin-top:16px}
+
+/* Step photos + home hero (own photography) */
+.step-fig { margin: 22px 0; }
+.step-img { width: 100%; border-radius: 14px; display: block; }
+.step-fig figcaption { font-size: .92rem; color: #7a6a58; margin-top: 8px; text-align: center; font-style: italic; }
+.home-hero { margin-top: 26px; }
