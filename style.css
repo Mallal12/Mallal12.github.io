@@ -24,7 +24,7 @@ nav.main a.cta{background:var(--red);color:#fff;font-weight:bold}
 nav.main a.cta:hover{background:#a00718;color:#fff}
 
 /* ---------- Hero ---------- */
-.hero{background:linear-gradient(rgba(46,26,12,.58),rgba(46,26,12,.58)),url('https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1600') center/cover;color:#fff;text-align:center;padding:96px 20px 84px}
+.hero{background:linear-gradient(rgba(46,26,12,.58),rgba(46,26,12,.58)),url('https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1600&auto=format') center/cover;color:#fff;text-align:center;padding:96px 20px 84px}
 .hero .kicker{font-family:Verdana,sans-serif;text-transform:uppercase;letter-spacing:2.5px;font-size:13px;color:#ffd98a;margin-bottom:14px}
 .hero h1{font-size:46px;line-height:1.15;margin-bottom:14px;text-shadow:0 2px 10px rgba(0,0,0,.35)}
 .hero p{font-size:19px;max-width:660px;margin:0 auto 26px}
@@ -132,4 +132,25 @@ footer.site .bottom{border-top:1px solid rgba(255,255,255,.14);text-align:center
   article h1{font-size:27px}
   .persona{padding:24px 20px;justify-content:center;text-align:center}
   .brand .tag{display:none}
+}
+
+/* ---------- Recipe actions + ingredient checklist ---------- */
+.recipe-actions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 6px}
+.jump-btn{display:inline-block;background:var(--brown);color:#fff;font-family:Verdana,sans-serif;font-size:15px;font-weight:bold;padding:11px 20px;border-radius:999px;text-decoration:none}
+.jump-btn:hover{background:var(--brown-dark);color:#fff}
+.print-btn{background:#fff;color:var(--brown-dark);border:2px solid var(--brown);font-family:Verdana,sans-serif;font-size:15px;font-weight:bold;padding:9px 18px;border-radius:999px;cursor:pointer}
+.print-btn:hover{background:var(--soft)}
+.zutaten-list{list-style:none;padding-left:0}
+.zutaten-list li{padding:5px 0;border-bottom:1px dashed var(--line)}
+.zutaten-list label{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
+.zutaten-list input[type="checkbox"]{width:19px;height:19px;margin-top:4px;accent-color:var(--brown);flex:none;cursor:pointer}
+.zutaten-list label:has(input:checked){text-decoration:line-through;color:var(--muted)}
+
+/* ---------- Print: clean recipe sheet ---------- */
+@media print{
+  header.site,footer.site,.recipe-actions,.toc,.crumb,.pin-box,.related,.author-box{display:none !important}
+  body{background:#fff;font-size:12.5pt}
+  .wrap{max-width:100%;padding:0}
+  .hero-img{max-height:260px;object-fit:cover;width:100%}
+  a{color:#000;text-decoration:none}
 }
