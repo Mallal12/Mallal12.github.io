@@ -100,8 +100,11 @@
     <div class="newsletter">
       <h2>Kein Rezept mehr verpassen!</h2>
       <p>Melde dich für unseren Newsletter an und erhalte die neuesten Rezepte, Backtipps und saisonale Ideen direkt in dein Postfach.</p>
-      <p style="font-size:17px"><strong>Der Newsletter startet in Kürze.</strong></p>
-      <p class="fine">Bis dahin findest du alle neuen Rezepte zuerst hier auf dem Blog und auf unserem Pinterest-Profil „Plätzchen Rezepte“.</p>
+      <form action="mailto:anarezept@gmail.com" method="post" enctype="text/plain">
+        <input type="email" name="newsletter-email" placeholder="Deine E-Mail-Adresse" required>
+        <button type="submit">Jetzt anmelden</button>
+      </form>
+      <p class="fine">Kostenlos und jederzeit abbestellbar. Deine Daten bleiben bei uns.</p>
     </div>
   </section>
 </div>
