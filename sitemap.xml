@@ -3,9 +3,6 @@
   <url><loc>https://rezepte-lecker.page/</loc><lastmod>2026-11-19</lastmod><priority>1.0</priority></url>
   <url><loc>https://rezepte-lecker.page/plaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.9</priority></url>
   <url><loc>https://rezepte-lecker.page/kochbuecher</loc><lastmod>2026-11-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://rezepte-lecker.page/vanillekipferl</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
-  <url><loc>https://rezepte-lecker.page/zimtsterne</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
-  <url><loc>https://rezepte-lecker.page/butterplaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
   <url><loc>https://rezepte-lecker.page/beste-plaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
   <url><loc>https://rezepte-lecker.page/plaetzchen-ohne-ei</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
   <url><loc>https://rezepte-lecker.page/ueber-mich</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
@@ -15,11 +12,48 @@
   <url><loc>https://rezepte-lecker.page/en/</loc><lastmod>2026-11-19</lastmod><priority>0.9</priority></url>
   <url><loc>https://rezepte-lecker.page/en/plaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://rezepte-lecker.page/en/kochbuecher</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
-  <url><loc>https://rezepte-lecker.page/en/vanillekipferl</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
-  <url><loc>https://rezepte-lecker.page/en/zimtsterne</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
-  <url><loc>https://rezepte-lecker.page/en/butterplaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
   <url><loc>https://rezepte-lecker.page/en/beste-plaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
   <url><loc>https://rezepte-lecker.page/en/plaetzchen-ohne-ei</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
   <url><loc>https://rezepte-lecker.page/en/ueber-mich</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
   <url><loc>https://rezepte-lecker.page/en/kontakt</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/vanillekipferl</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/vanillekipferl</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/zimtsterne</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/zimtsterne</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/butterplaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/butterplaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/spritzgebaeck</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/spritzgebaeck</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/kokosmakronen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/kokosmakronen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/spitzbuben</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/spitzbuben</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/engelsaugen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/engelsaugen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/heidesand</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/heidesand</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/schwarz-weiss-gebaeck</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/schwarz-weiss-gebaeck</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/bethmaennchen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/bethmaennchen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/pfeffernuesse</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/pfeffernuesse</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/spekulatius</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/spekulatius</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/weiche-lebkuchen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/weiche-lebkuchen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/elisenlebkuchen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/elisenlebkuchen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/stollenkonfekt</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/stollenkonfekt</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/anisplaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/anisplaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/schneefloeckchen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/schneefloeckchen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/walnussplaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/walnussplaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/mandelhoernchen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/mandelhoernchen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rezepte-lecker.page/haferflockenplaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rezepte-lecker.page/en/haferflockenplaetzchen</loc><lastmod>2026-11-19</lastmod><priority>0.6</priority></url>
 </urlset>
